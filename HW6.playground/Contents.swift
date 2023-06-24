@@ -10,7 +10,7 @@ struct PizzaWorker {
     var salary: Double
     var position: String
 }
-// Добавляем работников 
+// Добавляем работников.
 
 let worker0 = PizzaWorker(name: "Семен", salary: 45000, position: "Кассир")
 let worker1 = PizzaWorker(name: "Григорий", salary: 90000, position: "Повар")
@@ -28,7 +28,7 @@ class Pizzeria {
         setupTables()
         
     }
-    // Добавляем столики
+    // Добавляем столики.
     
     func setupTables() {
         let table0 = Table(numberOfSeats: 11, cafe: "Пиццерия Linda")
@@ -61,7 +61,7 @@ class Table {
 
 let table = Table(numberOfSeats: 5, cafe: "Cafe1")
 
-// Проверяем доступность мест
+// Проверяем доступность мест.
 
 let guests1 = 2
 let guests2 = 7
